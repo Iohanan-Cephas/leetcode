@@ -10,3 +10,6 @@ def sum_two(self, nums, target):
             return [indx, hashMap[diff]]
 
         hashMap[val] = indx
+
+    result = sum_two(nums, nums, 4)
+    print(result)
