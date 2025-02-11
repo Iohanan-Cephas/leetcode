@@ -1,6 +1,6 @@
 nums = [3,0,1]
 
-def sum_two(self, nums, target):
+def sum_two(nums, target):
     hashMap = {}
 
     for indx, val in enumerate(nums):
@@ -11,5 +11,5 @@ def sum_two(self, nums, target):
 
         hashMap[val] = indx
 
-    result = sum_two(nums, nums, 4)
-    print(result)
+result = sum_two(nums, 4)
+print(result)
